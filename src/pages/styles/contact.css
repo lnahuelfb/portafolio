@@ -1,0 +1,44 @@
+.container {
+  justify-content: center;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 10px;
+}
+
+.icon-container img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.mb-5 {
+  width: 40vw;
+  margin-top: 2em;
+  min-width: 350px;
+}
+
+.Contact p {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0.5em;
+  display: block;
+  min-width: 450px;
+}
+
+.Contact strong {
+  color: #5dc53a;
+}
+
+.btn {
+  background-color: #5dc53a !important;
+}
+
+.text {
+  display: flex;
+}

@@ -1,0 +1,85 @@
+.container-fluid {
+  display: flex;
+  width: inherit;
+  height: inherit;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+}
+
+.Navbar {
+  width: 100%;
+  background-color: #1c3643 !important;
+}
+
+.Navbar__brand {
+  color: #5dc53a;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  color: #5dc53a !important;
+  padding-left: 4em;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  place-content: flex-end;
+  padding-right: 1em;
+  min-width: 50%;
+}
+
+.nav-item {
+  margin-left: 4em;
+  margin-top: 5px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-brand-logo {
+  height: inherit;
+  margin-left: 30px;
+  width: 70px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-brand-logo img {
+  width: 70px;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  /* height: 70px; */
+}
+
+.container-logo p {
+  display: flex;
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  padding: 0 !important;
+}
