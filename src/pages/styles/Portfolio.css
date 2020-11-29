@@ -1,0 +1,22 @@
+.container p {
+  font-size: 2em;
+  text-align: center;
+  height: 250px;
+  margin-top: 1.5em;
+}
+
+.container {
+  justify-content: center;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  height: 250px;
+  width: 250px;
+}
+
+.image-container img {
+  max-width: 100%;
+}
