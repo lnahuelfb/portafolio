@@ -1,8 +1,8 @@
 .container {
-  justify-content: center;
-  padding: 2em;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 2em;
 }
 
 .icon-container {
@@ -17,10 +17,10 @@
   max-width: 100%;
 }
 
-.mb-5 {
-  width: 40vw;
-  margin-top: 2em;
-  min-width: 350px;
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Contact p {
@@ -33,10 +33,6 @@
 
 .Contact strong {
   color: #5dc53a;
-}
-
-.btn {
-  background-color: #5dc53a !important;
 }
 
 .text {

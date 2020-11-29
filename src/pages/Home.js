@@ -10,7 +10,7 @@ class Home extends React.Component {
       <div className="Home">
         <div className="container">
           <div className="row">
-            <div className="container-image col col-md-6">
+            <div className="container-image-home col col-md-6">
               <img src={Image} alt="img" max-width="450px" />
             </div>
 

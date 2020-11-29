@@ -1,0 +1,31 @@
+.container-about {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.images {
+  display: flex;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.images img {
+  width: 100%;
+}
+
+.image-container-about {
+  width: 150px;
+  height: 150px;
+  margin-top: 0;
+}
+
+.container-about p {
+  font-size: 1.5em;
+  height: auto;
+}
+.container-about a {
+  text-decoration: none !important;
+}
