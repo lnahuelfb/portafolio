@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={AboutMe} />
           <Route exact path="/404" component={NotFound} />
-          <Redirect from="*" to="/404" />
+          <Redirect from="*" to="/" />
         </Switch>
       </Layout>
     </BrowserRouter>
